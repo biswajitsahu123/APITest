@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="8642322c-6513-40e2-ac00-55d51f58922a" isOneWay="false" action="" name="CurrencyName" bindingOperationName="CurrencyName" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="8642322c-6513-40e2-ac00-55d51f58922afileName">CurrencyName</con:setting></con:settings><con:call id="11985f67-3965-4b50-bcdb-15ec3ebc1aea" name="CurrencyName Request"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:CurrencyName>\r
+         <web:sCurrencyISOCode>?</web:sCurrencyISOCode>\r
+      </web:CurrencyName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.oorsprong.org/websamples.countryinfo/CountryInfoServiceSoapType/CurrencyNameRequest"/><con:environmentSpec><con:entry environmentId="553fb0ec-0cc7-4fb3-b177-13aeb1c6de9d"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:call><con:environmentSpec><con:entry environmentId="553fb0ec-0cc7-4fb3-b177-13aeb1c6de9d"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:operation>

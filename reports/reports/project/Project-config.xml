@@ -1,0 +1,8 @@
+<con:reportTemplate xmlns:con="http://eviware.com/soapui/config">
+  <con:name>Project</con:name>
+  <con:reportType>PROJECT</con:reportType>
+  <con:reportLevel>MAINREPORT</con:reportLevel>
+  <con:data xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  <con:subreports>FailedTestStepsReport-Project 1</con:subreports>
+  <con:scope>PROJECT</con:scope>
+</con:reportTemplate>
